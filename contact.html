@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Xiaoyu Import & Export</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">X</div>
+      <div>
+        <div class="logo-name">Xiaoyu</div>
+        <div class="logo-sub">Import &amp; Export</div>
+      </div>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="product.html" class="nav-link">Product</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="product.html" onclick="closeMenu()">Product</a>
+    <a href="about.html" onclick="closeMenu()">About</a>
+    <a href="contact.html" onclick="closeMenu()">Contact</a>
+  </div>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+  <div class="container text-center">
+    <h1>Contact Us</h1>
+    <p>Get professional power monitoring solutions and competitive quotes</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="contact-layout">
+      <!-- Left: Info -->
+      <div class="contact-info-col">
+        <div class="contact-info-card">
+          <h3>Company Information</h3>
+          <h4>Guangzhou Xiaoyu Import and Export Co., Ltd.</h4>
+          <div class="contact-detail">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Address:</strong><br/>
+              <span>A256, 1st Floor, Shop 114, No. 3 &amp; 4, Zhongjing 4th Street, Nansha District, Guangzhou, China</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Email:</strong><br/>
+              <a href="mailto:summer@yucore.ltd">summer@yucore.ltd</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">📞</span>
+            <div>
+              <strong>Contact:</strong><br/>
+              Ms. Summer<br/>
+              <a href="tel:+8615018485957">+86 150 1848 5957</a>
+            </div>
+          </div>
+        </div>
+        <div class="office-img">
+          <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800" alt="Office" />
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-form-col">
+        <!-- Success State -->
+        <div id="successMsg" class="success-card" style="display:none">
+          <div class="success-icon">✅</div>
+          <h2>Thank You!</h2>
+          <p>We have received your inquiry and will contact you within 24 hours.</p>
+          <button onclick="resetForm()" class="btn btn-primary">Submit Another Inquiry</button>
+        </div>
+
+        <!-- Form -->
+        <div id="formCard" class="form-card">
+          <h3>Inquiry Form</h3>
+          <p class="form-sub">Please fill in the form below and we will respond promptly</p>
+          <form id="inquiryForm" onsubmit="submitForm(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="company_name">Company Name</label>
+                <input type="text" id="company_name" name="company_name" placeholder="Your company name" />
+              </div>
+              <div class="form-group">
+                <label for="contact_person">Contact Person *</label>
+                <input type="text" id="contact_person" name="contact_person" placeholder="Your name" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" placeholder="+86 123 4567 8900" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="Your country" />
+              </div>
+              <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" placeholder="100" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="6" placeholder="Please provide details about your requirements..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              ✈️ Submit Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <div class="logo logo-white">
+        <div class="logo-icon">X</div>
+        <div>
+          <div class="logo-name">Xiaoyu</div>
+          <div class="logo-sub" style="color:#94a3b8">Import &amp; Export</div>
+        </div>
+      </div>
+      <p class="footer-desc">Professional industrial power monitoring equipment supplier</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <div class="footer-contact">
+        <div class="footer-contact-item">📍 A256, 1st Floor, Shop 114, Nansha District, Guangzhou, China</div>
+        <div class="footer-contact-item">✉️ <a href="mailto:summer@yucore.ltd">summer@yucore.ltd</a></div>
+        <div class="footer-contact-item">📞 <a href="tel:+8615018485957">+86 150 1848 5957</a></div>
+        <div class="footer-contact-item">Ms. Summer</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Guangzhou Xiaoyu Import and Export Co., Ltd. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
