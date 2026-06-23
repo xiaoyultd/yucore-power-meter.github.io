@@ -1,32 +1,33 @@
-# Global Power Meter Solutions - Website
+# Guangzhou Xiaoyu Import and Export Co., Ltd. — Website
 
-GY900E-AS4 Multifunction Power Analyzer product website for Guangzhou Xiaoyu Import and Export Co., Ltd.
+A professional static website for industrial components trading, deployable on GitHub Pages.
 
-## Pages
+## Deploy to GitHub Pages
 
-- `index.html` — Home page
-- `product.html` — Product details & specifications
-- `about.html` — About the company
-- `contact.html` — Contact & inquiry form
-
-## Deploy to GitHub Pages (Free)
-
-1. Create a new GitHub repository
-2. Upload all files (`index.html`, `product.html`, `about.html`, `contact.html`, `style.css`, `main.js`)
+1. Create a new GitHub repository (e.g. `xiaoyu-industrial` or your preferred name)
+2. Upload all files in this folder to the repository root
 3. Go to **Settings → Pages**
-4. Set Source: **Deploy from a branch → main → / (root)**
-5. Click Save — your site will be live at `https://yourusername.github.io/repo-name`
+4. Under **Source**, select `Deploy from a branch`
+5. Choose branch: `main`, folder: `/ (root)`
+6. Click **Save** — your site will be live at `https://yourusername.github.io/repo-name/`
 
-## Files
+## File Structure
 
 ```
-├── index.html      # Home page
-├── product.html    # Product page
-├── about.html      # About page
-├── contact.html    # Contact page
-├── style.css       # All styles
-├── main.js         # Interactive features
-└── README.md       # This file
+/
+├── index.html        Home page
+├── products.html     Product catalog with filter
+├── about.html        About Us page
+├── contact.html      Contact & quotation request
+├── css/
+│   └── style.css     All page styles
+├── js/
+│   └── main.js       Navigation & filter logic
+└── README.md
 ```
 
-No build tools or npm required — pure HTML/CSS/JS, works everywhere.
+## Contact Form
+
+The quote form uses `mailto:` to open the visitor's email client pre-filled with their inquiry. No server required.
+
+To upgrade to a server-side form (so submissions work even without an email client), sign up at [Formspree](https://formspree.io) and replace the form `action` attribute with your Formspree endpoint.
