@@ -1,0 +1,350 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - text: 📧
+        - link "summer@gzcore.com" [ref=e6] [cursor=pointer]:
+          - /url: mailto:summer@gzcore.com
+      - generic [ref=e7]:
+        - text: 📱
+        - link "+86 150 1848 5957" [ref=e8] [cursor=pointer]:
+          - /url: tel:+8615018485957
+      - generic [ref=e9]: 📍 Nansha District, Guangzhou, China
+    - generic [ref=e10]:
+      - generic [ref=e11]: "Mon – Fri: 09:00 – 18:00 CST"
+      - link "Request Quote →" [ref=e12] [cursor=pointer]:
+        - /url: contact.html
+  - banner [ref=e13]:
+    - generic [ref=e14]:
+      - link "Xiaoyu Industrial 广州市小彧進出口有限公司" [ref=e15] [cursor=pointer]:
+        - /url: index.html
+        - img [ref=e17]
+        - generic [ref=e19]:
+          - strong [ref=e20]: Xiaoyu Industrial
+          - text: 广州市小彧進出口有限公司
+      - navigation [ref=e21]:
+        - link "Home" [ref=e22] [cursor=pointer]:
+          - /url: index.html
+        - link "Products" [ref=e23] [cursor=pointer]:
+          - /url: products.html
+        - link "About Us" [ref=e24] [cursor=pointer]:
+          - /url: about.html
+        - link "Contact" [ref=e25] [cursor=pointer]:
+          - /url: contact.html
+        - link "Get Quote" [ref=e26] [cursor=pointer]:
+          - /url: contact.html
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]: 🌐 Global Industrial Supplier
+      - heading "Your Trusted Partner for Industrial Components Worldwide" [level=1] [ref=e31]:
+        - text: Your Trusted Partner for
+        - emphasis [ref=e32]: Industrial Components
+        - text: Worldwide
+      - paragraph [ref=e33]: One-stop procurement of PLCs, VFDs, motors, sensors, circuit breakers and more — sourced from 500+ global brands with fast quotation and reliable export logistics.
+      - generic [ref=e34]:
+        - link "📋 Request a Quote" [ref=e35] [cursor=pointer]:
+          - /url: contact.html
+        - link "Browse Products" [ref=e36] [cursor=pointer]:
+          - /url: products.html
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - strong [ref=e39]: 500+
+          - text: Brands Covered
+        - generic [ref=e40]:
+          - strong [ref=e41]: 10+
+          - text: Years Export
+        - generic [ref=e42]:
+          - strong [ref=e43]: 50+
+          - text: Countries Served
+        - generic [ref=e44]:
+          - strong [ref=e45]: 24h
+          - text: Quote Response
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]: ⚡
+        - heading "Industrial Automation" [level=4] [ref=e49]
+        - paragraph [ref=e50]: PLC · HMI · VFD · Servo · Encoders · Sensors
+      - generic [ref=e51]:
+        - generic [ref=e52]: 🔌
+        - heading "Electrical Equipment" [level=4] [ref=e53]
+        - paragraph [ref=e54]: Circuit Breakers · Contactors · Relays · Power Meters
+      - generic [ref=e55]:
+        - generic [ref=e56]: ⚙️
+        - heading "Power Transmission" [level=4] [ref=e57]
+        - paragraph [ref=e58]: Motors · Gearboxes · Bearings · Couplings
+      - generic [ref=e59]:
+        - generic [ref=e60]: 🔧
+        - heading "Industrial Spare Parts" [level=4] [ref=e61]
+        - paragraph [ref=e62]: Pump · Generator · Temp Sensors · Pressure Transmitters
+  - generic [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]: 🌐
+      - generic [ref=e67]:
+        - strong [ref=e68]: Global Sourcing
+        - text: Worldwide brand access
+    - generic [ref=e69]:
+      - generic [ref=e70]: 🛒
+      - generic [ref=e71]:
+        - strong [ref=e72]: One-Stop Procurement
+        - text: All categories, one supplier
+    - generic [ref=e73]:
+      - generic [ref=e74]: 📦
+      - generic [ref=e75]:
+        - strong [ref=e76]: Export Experience
+        - text: 10+ years shipping globally
+    - generic [ref=e77]:
+      - generic [ref=e78]: 🏷️
+      - generic [ref=e79]:
+        - strong [ref=e80]: Multi-Brand Supply
+        - text: 500+ brands in stock
+    - generic [ref=e81]:
+      - generic [ref=e82]: ⚡
+      - generic [ref=e83]:
+        - strong [ref=e84]: Fast Quotation
+        - text: Response within 24 hours
+  - generic [ref=e86]:
+    - generic [ref=e87]:
+      - generic [ref=e88]: What We Supply
+      - heading "Complete Product Categories" [level=2] [ref=e89]
+      - paragraph [ref=e90]: From automation controllers to mechanical transmission — we source everything your factory needs from the world's leading manufacturers.
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]: ⚡
+          - generic [ref=e95]:
+            - heading "Industrial Automation" [level=3] [ref=e96]
+            - generic [ref=e97]: 6 product types
+        - list [ref=e99]:
+          - listitem [ref=e100]: PLC (Programmable Logic Controllers)
+          - listitem [ref=e101]: HMI (Human-Machine Interfaces)
+          - listitem [ref=e102]: Sensors & Proximity Switches
+          - listitem [ref=e103]: Encoders & Resolvers
+          - listitem [ref=e104]: VFDs (Variable Frequency Drives)
+          - listitem [ref=e105]: Servo Systems & Drives
+        - link "View Products →" [ref=e107] [cursor=pointer]:
+          - /url: products.html?cat=automation
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: 🔌
+          - generic [ref=e111]:
+            - heading "Electrical Equipment" [level=3] [ref=e112]
+            - generic [ref=e113]: 5 product types
+        - list [ref=e115]:
+          - listitem [ref=e116]: Circuit Breakers & MCBs
+          - listitem [ref=e117]: Contactors & Motor Starters
+          - listitem [ref=e118]: Relays & Relay Modules
+          - listitem [ref=e119]: Power Meters & Analyzers
+          - listitem [ref=e120]: Current Transformers (CT)
+        - link "View Products →" [ref=e122] [cursor=pointer]:
+          - /url: products.html?cat=electrical
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]: ⚙️
+          - generic [ref=e126]:
+            - heading "Power Transmission" [level=3] [ref=e127]
+            - generic [ref=e128]: 5 product types
+        - list [ref=e130]:
+          - listitem [ref=e131]: Electric Motors (AC/DC)
+          - listitem [ref=e132]: Gear Motors
+          - listitem [ref=e133]: Gearboxes & Reducers
+          - listitem [ref=e134]: Bearings & Linear Guides
+          - listitem [ref=e135]: Couplings & Flexible Joints
+        - link "View Products →" [ref=e137] [cursor=pointer]:
+          - /url: products.html?cat=transmission
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: 🔧
+          - generic [ref=e141]:
+            - heading "Industrial Spare Parts" [level=3] [ref=e142]
+            - generic [ref=e143]: 5 product types
+        - list [ref=e145]:
+          - listitem [ref=e146]: Pump Parts & Seals
+          - listitem [ref=e147]: Generator Parts
+          - listitem [ref=e148]: Temperature Sensors & RTDs
+          - listitem [ref=e149]: Pressure Transmitters
+          - listitem [ref=e150]: Control Cabinet Components
+        - link "View Products →" [ref=e152] [cursor=pointer]:
+          - /url: products.html?cat=spares
+  - generic [ref=e154]:
+    - generic [ref=e155]:
+      - generic [ref=e156]: Why Choose Us
+      - heading "Built for Global Industrial Buyers" [level=2] [ref=e157]
+      - paragraph [ref=e158]: We understand the pressure of procurement deadlines, cross-border logistics, and the need for verified components.
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - generic [ref=e161]: 🌐
+        - heading "Global Sourcing Network" [level=4] [ref=e162]
+        - paragraph [ref=e163]: Direct relationships with authorized distributors and factories across Europe, North America, Japan, and China for genuine products at competitive prices.
+      - generic [ref=e164]:
+        - generic [ref=e165]: 🛒
+        - heading "One-Stop Procurement" [level=4] [ref=e166]
+        - paragraph [ref=e167]: Consolidate orders across multiple brands and product categories into a single shipment — reducing your logistics cost and vendor management burden.
+      - generic [ref=e168]:
+        - generic [ref=e169]: 📦
+        - heading "10+ Years Export Experience" [level=4] [ref=e170]
+        - paragraph [ref=e171]: Proven expertise in international trade documentation, customs clearance, and logistics coordination to over 50 countries worldwide.
+      - generic [ref=e172]:
+        - generic [ref=e173]: 🏷️
+        - heading "Multi-Brand Supply" [level=4] [ref=e174]
+        - paragraph [ref=e175]: Siemens, ABB, Schneider, Mitsubishi, Omron, Rockwell, Fanuc, SKF and 500+ more — all from one trusted supplier you can rely on.
+      - generic [ref=e176]:
+        - generic [ref=e177]: ⚡
+        - heading "Fast Quotation" [level=4] [ref=e178]
+        - paragraph [ref=e179]: Submit your parts list and receive a detailed quotation within 24 hours. Urgent projects prioritized with same-day response available.
+  - generic [ref=e181]:
+    - generic [ref=e182]:
+      - generic [ref=e183]: What We Supply
+      - heading "10 Product Categories" [level=2] [ref=e184]
+      - paragraph [ref=e185]: From automation to instrumentation — one supplier, one shipment, every category your project needs.
+    - generic [ref=e186]:
+      - link "⚡ AUTOMATION PLC · HMI · Sensors" [ref=e187] [cursor=pointer]:
+        - /url: products.html?cat=automation
+        - generic [ref=e188]: ⚡
+        - generic [ref=e189]: AUTOMATION
+        - generic [ref=e190]: PLC · HMI · Sensors
+      - link "🔌 ELECTRICAL Breakers · Contactors" [ref=e191] [cursor=pointer]:
+        - /url: products.html?cat=electrical
+        - generic [ref=e192]: 🔌
+        - generic [ref=e193]: ELECTRICAL
+        - generic [ref=e194]: Breakers · Contactors
+      - link "⚙️ POWER TRANSMISSION Motors · Gearboxes" [ref=e195] [cursor=pointer]:
+        - /url: products.html?cat=transmission
+        - generic [ref=e196]: ⚙️
+        - generic [ref=e197]: POWER TRANSMISSION
+        - generic [ref=e198]: Motors · Gearboxes
+      - link "🔩 BEARINGS SKF · FAG Type" [ref=e199] [cursor=pointer]:
+        - /url: products.html?cat=transmission
+        - generic [ref=e200]: 🔩
+        - generic [ref=e201]: BEARINGS
+        - generic [ref=e202]: SKF · FAG Type
+      - link "🔧 MRO PARTS Industrial Spare Parts" [ref=e203] [cursor=pointer]:
+        - /url: products.html?cat=spares
+        - generic [ref=e204]: 🔧
+        - generic [ref=e205]: MRO PARTS
+        - generic [ref=e206]: Industrial Spare Parts
+      - link "📊 INSTRUMENTATION Meters · Transmitters" [ref=e207] [cursor=pointer]:
+        - /url: products.html?cat=spares
+        - generic [ref=e208]: 📊
+        - generic [ref=e209]: INSTRUMENTATION
+        - generic [ref=e210]: Meters · Transmitters
+      - link "💨 PNEUMATICS Valves · Cylinders" [ref=e211] [cursor=pointer]:
+        - /url: contact.html
+        - generic [ref=e212]: 💨
+        - generic [ref=e213]: PNEUMATICS
+        - generic [ref=e214]: Valves · Cylinders
+      - link "🎯 MOTION CONTROL Servo · VFD" [ref=e215] [cursor=pointer]:
+        - /url: products.html?cat=automation
+        - generic [ref=e216]: 🎯
+        - generic [ref=e217]: MOTION CONTROL
+        - generic [ref=e218]: Servo · VFD
+      - link "🔗 INDUSTRIAL CABLES Power · Signal · Data" [ref=e219] [cursor=pointer]:
+        - /url: contact.html
+        - generic [ref=e220]: 🔗
+        - generic [ref=e221]: INDUSTRIAL CABLES
+        - generic [ref=e222]: Power · Signal · Data
+      - link "🌐 CUSTOM SOURCING Any Brand · Any Part" [ref=e223] [cursor=pointer]:
+        - /url: contact.html
+        - generic [ref=e224]: 🌐
+        - generic [ref=e225]: CUSTOM SOURCING
+        - generic [ref=e226]: Any Brand · Any Part
+  - generic [ref=e228]:
+    - generic [ref=e229]:
+      - generic [ref=e230]: How It Works
+      - heading "From Inquiry to Delivery in 4 Steps" [level=2] [ref=e231]
+      - paragraph [ref=e232]: A streamlined process designed to minimize your effort and maximize speed.
+    - generic [ref=e233]:
+      - generic [ref=e234]:
+        - generic [ref=e235]: "1"
+        - heading "Send Inquiry" [level=4] [ref=e236]
+        - paragraph [ref=e237]: Submit your parts list by email, WhatsApp, or the quote form. Include model numbers, quantities, and urgency.
+      - generic [ref=e238]:
+        - generic [ref=e239]: "2"
+        - heading "We Source" [level=4] [ref=e240]
+        - paragraph [ref=e241]: Our team checks availability across our global network and authorized distributor channels for genuine stock.
+      - generic [ref=e242]:
+        - generic [ref=e243]: "3"
+        - heading "Quotation" [level=4] [ref=e244]
+        - paragraph [ref=e245]: Receive a detailed quote with pricing, lead time, and shipping options within 24 hours of your inquiry.
+      - generic [ref=e246]:
+        - generic [ref=e247]: "4"
+        - heading "Ship & Track" [level=4] [ref=e248]
+        - paragraph [ref=e249]: Upon payment, we handle packaging, export documentation, customs, and provide full tracking until delivery.
+  - generic [ref=e251]:
+    - generic [ref=e252]:
+      - generic [ref=e253]: Common Questions
+      - heading "Frequently Asked Questions" [level=2] [ref=e254]
+      - paragraph [ref=e255]: Everything industrial buyers need to know about sourcing components from China through Xiaoyu.
+    - generic [ref=e256]:
+      - button "What industrial component brands do you supply? +" [ref=e258] [cursor=pointer]
+      - button "How quickly can I receive a quotation? +" [ref=e260] [cursor=pointer]
+      - button "Do you ship industrial components worldwide? +" [ref=e262] [cursor=pointer]
+      - button "Is there a minimum order quantity? +" [ref=e264] [cursor=pointer]
+      - button "Are the components genuine and covered by manufacturer warranty? +" [ref=e266] [cursor=pointer]
+      - button "What payment methods do you accept? +" [ref=e268] [cursor=pointer]
+  - generic [ref=e269]:
+    - heading "Ready to Source Your Next Order?" [level=2] [ref=e270]
+    - paragraph [ref=e271]: Get a free, no-obligation quotation within 24 hours. Contact Ms. Summer directly.
+    - link "📋 Request a Free Quote" [ref=e272] [cursor=pointer]:
+      - /url: contact.html
+  - contentinfo [ref=e273]:
+    - generic [ref=e274]:
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - img [ref=e279]
+            - generic [ref=e281]:
+              - strong [ref=e282]: Xiaoyu Industrial
+              - text: 广州市小彧進出口有限公司
+          - paragraph [ref=e283]: Global sourcing partner for industrial automation, electrical equipment, power transmission, and spare parts. Serving buyers in 50+ countries since 2014.
+        - generic [ref=e284]:
+          - heading "Products" [level=5] [ref=e285]
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - link "Industrial Automation" [ref=e288] [cursor=pointer]:
+                - /url: products.html?cat=automation
+            - listitem [ref=e289]:
+              - link "Electrical Equipment" [ref=e290] [cursor=pointer]:
+                - /url: products.html?cat=electrical
+            - listitem [ref=e291]:
+              - link "Power Transmission" [ref=e292] [cursor=pointer]:
+                - /url: products.html?cat=transmission
+            - listitem [ref=e293]:
+              - link "Industrial Spare Parts" [ref=e294] [cursor=pointer]:
+                - /url: products.html?cat=spares
+        - generic [ref=e295]:
+          - heading "Company" [level=5] [ref=e296]
+          - list [ref=e297]:
+            - listitem [ref=e298]:
+              - link "About Us" [ref=e299] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=e300]:
+              - link "Our Values" [ref=e301] [cursor=pointer]:
+                - /url: about.html#values
+            - listitem [ref=e302]:
+              - link "Products" [ref=e303] [cursor=pointer]:
+                - /url: products.html
+            - listitem [ref=e304]:
+              - link "Contact" [ref=e305] [cursor=pointer]:
+                - /url: contact.html
+        - generic [ref=e306]:
+          - heading "Contact" [level=5] [ref=e307]
+          - generic [ref=e308]:
+            - generic [ref=e309]: 📧
+            - link "summer@gzcore.com" [ref=e311] [cursor=pointer]:
+              - /url: mailto:summer@gzcore.com
+          - generic [ref=e312]:
+            - generic [ref=e313]: 📱
+            - link "+86 150 1848 5957" [ref=e315] [cursor=pointer]:
+              - /url: tel:+8615018485957
+          - generic [ref=e316]:
+            - generic [ref=e317]: 👩
+            - generic [ref=e318]: "Contact: Ms. Summer"
+          - generic [ref=e319]:
+            - generic [ref=e320]: 📍
+            - generic [ref=e321]: Nansha District, Guangzhou, China
+      - generic [ref=e322]:
+        - generic [ref=e323]: © 2014–2026 Guangzhou Xiaoyu Import and Export Co., Ltd. All rights reserved.
+        - generic [ref=e324]:
+          - generic [ref=e325]: 🌐 Global Exporter
+          - generic [ref=e326]: ✅ Multi-Brand Supply
+          - generic [ref=e327]: ⚡ 24h Quotation

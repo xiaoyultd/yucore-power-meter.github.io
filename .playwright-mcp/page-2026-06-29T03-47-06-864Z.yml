@@ -1,0 +1,49 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: 正在加载
+        - progressbar [active] [ref=e8]
+      - main [ref=e15]:
+        - generic [ref=e16]:
+          - img [ref=e19]
+          - generic [ref=e24]:
+            - heading "登录" [level=1] [ref=e25]
+            - generic [ref=e26]: 请使用您的 Google 账号登录，以便继续前往 Google Search Console。该浏览器中的其他 Google 应用都将可以访问此账号。
+        - generic [ref=e29]:
+          - generic [ref=e34]:
+            - generic [ref=e39]:
+              - textbox "邮箱或电话号码" [ref=e40]: min786279182@gmail.com
+              - generic: 邮箱或电话号码
+            - button "忘记了邮箱？" [ref=e44] [cursor=pointer]
+          - generic [ref=e47]:
+            - text: 您用的不是自己的电脑？请使用访客模式无痕登录。
+            - link "详细了解如何使用访客模式（外部链接，在新窗口中打开）" [ref=e48] [cursor=pointer]:
+              - /url: https://support.google.com/chrome/answer/6130773?hl=zh-CN
+              - text: 详细了解如何使用访客模式
+        - generic [ref=e50]:
+          - button "下一步" [ref=e54]:
+            - generic [ref=e57]: 下一步
+          - button "创建账号" [ref=e63]:
+            - generic [ref=e66]: 创建账号
+    - contentinfo [ref=e70]:
+      - combobox "更改语言 简体中文" [ref=e74] [cursor=pointer]:
+        - generic:
+          - generic: 简体中文
+        - generic:
+          - img
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - link "打开 Google 账号帮助中心（外部链接，在新窗口中打开）" [ref=e78] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=zh-CN&p=account_iph
+            - text: 帮助
+        - listitem [ref=e79]:
+          - link "《隐私权政策》（外部链接，在新窗口中打开）" [ref=e80] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=US&hl=zh-CN&privacy=true
+            - text: 隐私权
+        - listitem [ref=e81]:
+          - link "《Google 服务条款》（外部链接，在新窗口中打开）" [ref=e82] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=US&hl=zh-CN
+            - text: 条款
+  - iframe [ref=e83]:
+    
