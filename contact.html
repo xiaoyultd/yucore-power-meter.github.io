@@ -159,7 +159,7 @@
           ✅ Your email client has been opened with the inquiry details. If it didn't open, please email us directly at <a href="mailto:summer@gzcore.com">summer@gzcore.com</a>.
         </div>
 
-        <form id="quote-form" novalidate>
+        <form id="quote-form">
           <div class="form-row">
             <div class="form-group">
               <label for="name">Your Name *</label>
@@ -220,8 +220,8 @@
               </select>
             </div>
           </div>
-          <button type="submit" class="btn-submit">📋 Submit Quotation Request</button>
-          <p class="form-note">By submitting, your email client will open with a pre-filled inquiry email to summer@gzcore.com</p>
+          <button type="submit" class="btn-submit" data-cta="quote-form-submit">Get My Price &amp; Lead Time</button>
+          <p class="form-note">Free, no-obligation quote · Response within 24 hours · Your details stay private</p>
         </form>
       </div>
 
@@ -270,26 +270,5 @@
 </footer>
 
 <script src="js/main.js"></script>
-<script>
-  const form = document.getElementById('quote-form');
-  if (form) {
-    form.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const name = form.querySelector('[name="name"]').value;
-      const company = form.querySelector('[name="company"]').value;
-      const email = form.querySelector('[name="email"]').value;
-      const phone = form.querySelector('[name="phone"]').value;
-      const country = form.querySelector('[name="country"]').value;
-      const category = form.querySelector('[name="category"]').value;
-      const products = form.querySelector('[name="products"]').value;
-      const qty = form.querySelector('[name="qty"]').value;
-      const urgency = form.querySelector('[name="urgency"]').value;
-      const body = ['Name: '+name,'Company: '+company,'Email: '+email,'Phone: '+phone,'Country: '+country,'Category: '+category,'Products / Part Numbers:',products,'Quantity: '+qty,'Urgency: '+urgency].join('\n');
-      const subject = 'Quotation Request from ' + name + ' (' + company + ')';
-      window.location.href = 'mailto:summer@gzcore.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-      document.getElementById('form-success').style.display = 'block';
-    });
-  }
-</script>
 </body>
 </html>

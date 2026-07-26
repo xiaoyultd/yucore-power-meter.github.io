@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://gzyucore.com/sitemap.xml
+
+# AI content guide: https://gzyucore.com/llms.txt
