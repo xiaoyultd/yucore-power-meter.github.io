@@ -4,7 +4,7 @@ A professional static website for industrial components trading, deployable on G
 
 ## Deploy to GitHub Pages
 
-1. Create a new GitHub repository (e.g. `xiaoyu-industrial` or your preferred name)
+1. Create a new GitHub repository (e.g. `yucore-industrial` or your preferred name)
 2. Upload all files in this folder to the repository root
 3. Go to **Settings → Pages**
 4. Under **Source**, select `Deploy from a branch`
