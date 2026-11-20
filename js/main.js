@@ -55,18 +55,9 @@ document.querySelectorAll('.faq-q').forEach(function(btn) {
   });
 });
 
-// Persistent conversion paths and CTA measurement on every page.
+// Quote and WhatsApp stay in the header and in the page.
+// A fixed corner dock covered forms, photos, and the footer.
 document.addEventListener('DOMContentLoaded', function () {
-  if (!document.querySelector('.conversion-dock')) {
-    const dock = document.createElement('div');
-    dock.className = 'conversion-dock';
-    dock.setAttribute('aria-label', 'Quick contact');
-    dock.innerHTML =
-      '<a class="dock-whatsapp" data-cta="floating-whatsapp" target="_blank" rel="noopener" href="https://wa.me/8615018485957?text=Hi%20Summer%2C%20I%27d%20like%20a%20quote%20for%20industrial%20parts.">WhatsApp</a>' +
-      '<a class="dock-quote" data-cta="floating-quote" href="contact.html#quote-form">Get 24h Quote</a>';
-    document.body.appendChild(dock);
-  }
-
   document.addEventListener('click', function (event) {
     const cta = event.target.closest('[data-cta]');
     if (!cta) return;
