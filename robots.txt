@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://gzyucore.com/sitemap.xml
+Allow: /llms.txt
 
 # AI content guide: https://gzyucore.com/llms.txt
+
+Sitemap: https://gzyucore.com/sitemap.xml

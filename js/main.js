@@ -7,12 +7,13 @@ function toggleNav() {
 (function () {
   const page = location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('nav a').forEach(function (a) {
-    const href = a.getAttribute('href');
-    if (href && href !== 'contact.html' && href.startsWith(page.split('?')[0])) {
-      a.classList.add('active');
-    } else if (page === '' || page === 'index.html') {
+    const href = (a.getAttribute('href') || '').split('?')[0].split('#')[0];
+    if (!href || href === 'contact.html') return;
+    if (page === 'index.html') {
       if (href === 'index.html') a.classList.add('active');
+      return;
     }
+    if (href === page) a.classList.add('active');
   });
 })();
 
@@ -96,34 +97,39 @@ if (form) {
       form.reportValidity();
       return;
     }
-    const name = form.querySelector('[name="name"]').value;
-    const company = form.querySelector('[name="company"]').value;
-    const email = form.querySelector('[name="email"]').value;
-    const phone = form.querySelector('[name="phone"]').value;
-    const country = form.querySelector('[name="country"]').value;
-    const category = form.querySelector('[name="category"]').value;
-    const products = form.querySelector('[name="products"]').value;
-    const qty = form.querySelector('[name="qty"]').value;
-    const urgency = form.querySelector('[name="urgency"]').value;
+    function fieldValue(fieldName) {
+      const el = form.querySelector('[name="' + fieldName + '"]');
+      return el ? el.value.trim() : '';
+    }
+    const name = fieldValue('name');
+    const company = fieldValue('company');
+    const email = fieldValue('email');
+    const phone = fieldValue('phone');
+    const country = fieldValue('country');
+    const category = fieldValue('category');
+    const products = fieldValue('products');
+    const qty = fieldValue('qty');
+    const delivery = fieldValue('delivery') || fieldValue('urgency');
 
-    const body = [
+    const lines = [
       'Name: ' + name,
       'Company: ' + company,
-      'Email: ' + email,
-      'Phone: ' + phone,
-      'Destination Country: ' + country,
-      'Category: ' + category,
-      'Products / Part Numbers:',
-      products,
-      'Estimated Quantity: ' + qty,
-      'Urgency: ' + urgency
-    ].join('\n');
+      'Email: ' + email
+    ];
+    if (phone) lines.push('Phone: ' + phone);
+    lines.push('Destination Country: ' + country);
+    if (category) lines.push('Category: ' + category);
+    lines.push('Products / Part Numbers:');
+    lines.push(products);
+    if (qty) lines.push('Estimated Quantity: ' + qty);
+    if (delivery) lines.push('Required delivery date: ' + delivery);
+    const body = lines.join('\n');
 
     const subject = 'Quotation Request from ' + name + ' (' + company + ')';
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: 'quote_form_submit', page: location.pathname });
     const success = document.getElementById('form-success');
     if (success) success.style.display = 'block';
-    window.location.href = 'mailto:summer@gzcore.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    window.location.href = 'mailto:summer@yucore.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
   });
 }
