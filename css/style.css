@@ -58,8 +58,8 @@ button, input, select, textarea { font-family: inherit; }
 }
 ::selection { background: var(--amber); color: var(--navy-deep); }
 
-/* Fixed 3:2 frame. Padding, not the file's height attribute, sets the box
-   so a row of tiles and their captions stays inside one desktop view. */
+/* Scene and hero frames stay 3:2. Product stills are 1152×864, so those
+   frames are 4:3 and the image is contained, not cover-cropped. */
 .media,
 .product-card-top.product-photo,
 .product-card-top.product-plain,
@@ -75,6 +75,16 @@ button, input, select, textarea { font-family: inherit; }
   padding-bottom: 66.6667%;
   background: #e7ebf0;
   flex: 0 0 auto;
+}
+
+.home-tile .media,
+.product-card-top.product-photo,
+.product-card-top.product-plain,
+.seo-hero-photo,
+.app-photo:has(img[src*="images/products/"]),
+.app-card .media:has(img[src*="images/products/"]) {
+  padding-bottom: 75%;
+  background: #e4e0de;
 }
 
 .media img,
@@ -101,6 +111,15 @@ button, input, select, textarea { font-family: inherit; }
 .app-photo img {
   position: absolute;
   inset: 0;
+}
+
+.home-tile .media img,
+.product-card-top.product-photo img,
+.seo-hero-photo img,
+.app-photo:has(img[src*="images/products/"]) img,
+.app-card .media:has(img[src*="images/products/"]) img {
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Captions sit under the frame, so these photos stay in normal flow. */
@@ -774,8 +793,8 @@ a.cat-card:hover,
 .breadcrumb a { color: rgba(255,255,255,0.78); }
 .breadcrumb a:hover { color: var(--amber); }
 .breadcrumb span { margin: 0 6px; color: rgba(255,255,255,0.35); }
-.page-hero-photo,
-.seo-hero-photo { border: 0; border-radius: 0; background: #12315f; }
+.page-hero-photo { border: 0; border-radius: 0; background: #12315f; }
+.seo-hero-photo { border: 0; border-radius: 0; background: #e4e0de; }
 .seo-hero-aside { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
 .seo-proof-card {
   background: transparent;
