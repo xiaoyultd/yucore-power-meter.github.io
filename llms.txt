@@ -4,7 +4,7 @@
 
 Yucore Industrial is the trading name of Guangzhou Xiaoyu Import and Export Co., Ltd., a sourcing and export company in Nansha, Guangzhou. Since 2014 we have helped factories, distributors, system integrators, panel builders and maintenance teams source electrical and automation parts from China, including PLCs, VFDs, sensors, servo motors, circuit breakers and control cabinet components. Hydraulic parts and MRO spares can be included in the same order. Buyers can request one replacement item or a multi-brand bill of materials. We quote within 24 hours when the manufacturer, exact model or part number, quantity, destination country and required delivery date are provided. Availability, condition, source, warranty, unit price, lead time, packing and freight are confirmed in the written quotation before an order is placed. Sales contact: Ms. Summer, summer@yucore.com, +86 150 1848 5957.
 
-Last updated: 2026-11-20
+Last updated: 2026-11-25
 
 ## Company facts
 
@@ -29,6 +29,7 @@ Last updated: 2026-11-20
 - Circuit breakers: miniature and molded-case breakers and protection devices
 - Control cabinets: relays, terminals, power supplies and panel parts
 - Hydraulic parts and MRO spares: included when the buyer adds them to the same order
+- 3D-printed parts and PCB boards: quote by drawing, Gerber, or part number. They can be included in the same export shipment as mechanical, hydraulic and automation components, subject to a written quotation. Lead time, Incoterms, packing and document responsibility are stated only in the quotation. Stock, production capacity and factory affiliation are not listed unless written there.
 - Supply scope: 500+ supply channels
 - Minimum order: none
 
@@ -54,6 +55,7 @@ The quotation confirms availability, condition, source, warranty, unit price, le
 - [Control cabinet components](https://gzyucore.com/control-cabinet-components-supplier.html)
 - [Hydraulic parts](https://gzyucore.com/hydraulic-parts-supplier-china.html)
 - [MRO spare parts](https://gzyucore.com/mro-spare-parts-supplier-china.html)
+- [3D-printed parts and PCB boards](https://gzyucore.com/printed-parts-pcb-supplier-china.html)
 
 ## Content use
 
