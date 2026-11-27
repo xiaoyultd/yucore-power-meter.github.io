@@ -3,187 +3,187 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://gzyucore.com/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/hero-cabinet.jpg</image:loc>
-      <image:caption>Open industrial control cabinet with breakers, relays and terminals</image:caption>
+      <image:caption>Open control cabinet installed beside a packaging machine in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/og-share.jpg</image:loc>
-      <image:caption>Open industrial control cabinet with breakers, relays and terminals</image:caption>
+      <image:caption>Open control cabinet installed beside a process line in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/process-packing.jpg</image:loc>
-      <image:caption>Export carton with bubble wrap and shipping documents</image:caption>
+      <image:caption>Industrial parts in foam-lined cartons at a bright packing station</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/plc.jpg</image:loc>
-      <image:caption>Programmable logic controller modules</image:caption>
+      <image:caption>PLC modules mounted on a DIN rail inside a control cabinet</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/vfd.jpg</image:loc>
-      <image:caption>Variable frequency drive</image:caption>
+      <image:caption>Variable frequency drive mounted inside an electrical enclosure</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/sensors.jpg</image:loc>
-      <image:caption>Proximity sensors and a temperature probe</image:caption>
+      <image:caption>Industrial sensors mounted on a production machine in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/servo.jpg</image:loc>
-      <image:caption>Servo motor</image:caption>
+      <image:caption>Servo motor and drive mounted on a machine frame in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/electrical.jpg</image:loc>
-      <image:caption>Miniature and molded-case circuit breakers</image:caption>
+      <image:caption>Circuit breakers mounted on a DIN rail inside a control cabinet</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/cabinet.jpg</image:loc>
-      <image:caption>Open control cabinet with relays, breakers and terminals</image:caption>
+      <image:caption>Open control cabinet with breakers and colored wiring, installed beside process equipment in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/hydraulics.jpg</image:loc>
-      <image:caption>Hydraulic pump and valve</image:caption>
+      <image:caption>Hydraulic valve manifold installed on factory machinery</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/mro.jpg</image:loc>
-      <image:caption>Mechanical seal, bearing and fuse holder for maintenance lists</image:caption>
+      <image:caption>Bearing housing mounted on production equipment in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/about.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/hero-cabinet.jpg</image:loc>
-      <image:caption>Open industrial control cabinet with breakers, relays and terminals</image:caption>
+      <image:caption>Open control cabinet installed beside a packaging machine in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/og-share.jpg</image:loc>
-      <image:caption>Open industrial control cabinet with breakers, relays and terminals</image:caption>
+      <image:caption>Open control cabinet installed beside a process line in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/products.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/plc.jpg</image:loc>
-      <image:caption>Programmable logic controller modules</image:caption>
+      <image:caption>PLC modules mounted on a DIN rail inside a control cabinet</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/servo.jpg</image:loc>
-      <image:caption>Servo motor</image:caption>
+      <image:caption>Servo motor and drive mounted on a machine frame in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/mro.jpg</image:loc>
-      <image:caption>Mechanical seal, bearing and fuse holder for maintenance lists</image:caption>
+      <image:caption>Bearing housing mounted on production equipment in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/og-share.jpg</image:loc>
-      <image:caption>Open industrial control cabinet with breakers, relays and terminals</image:caption>
+      <image:caption>Open control cabinet installed beside a process line in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/contact.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/og-share.jpg</image:loc>
-      <image:caption>Open industrial control cabinet with breakers, relays and terminals</image:caption>
+      <image:caption>Open control cabinet installed beside a process line in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/plc-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/plc.jpg</image:loc>
-      <image:caption>Programmable logic controller modules</image:caption>
+      <image:caption>PLC modules mounted on a DIN rail inside a control cabinet</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/scenes/scene-plc.jpg</image:loc>
-      <image:caption>Programmable logic controller modules installed in a control cabinet</image:caption>
+      <image:caption>PLC modules installed in an open control cabinet on a factory floor</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/vfd-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/vfd.jpg</image:loc>
-      <image:caption>Variable frequency drive</image:caption>
+      <image:caption>Variable frequency drive mounted inside an electrical enclosure</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/scenes/scene-vfd.jpg</image:loc>
-      <image:caption>Variable frequency drive wired beside an industrial motor</image:caption>
+      <image:caption>Variable frequency drive installed in a cabinet beside process equipment in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/industrial-sensors-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/sensors.jpg</image:loc>
-      <image:caption>Proximity sensors and a temperature probe</image:caption>
+      <image:caption>Industrial sensors mounted on a production machine in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/scenes/scene-sensors.jpg</image:loc>
-      <image:caption>Proximity sensors mounted on production equipment</image:caption>
+      <image:caption>Industrial sensors mounted on a production machine in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/servo-motor-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/servo.jpg</image:loc>
-      <image:caption>Servo motor</image:caption>
+      <image:caption>Servo motor and drive mounted on a machine frame in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/scenes/scene-servo.jpg</image:loc>
-      <image:caption>Servo motor mounted on a linear motion axis</image:caption>
+      <image:caption>Servo motor mounted on a linear axis of production equipment in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/circuit-breaker-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/electrical.jpg</image:loc>
-      <image:caption>Miniature and molded-case circuit breakers</image:caption>
+      <image:caption>Circuit breakers mounted on a DIN rail inside a control cabinet</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/scenes/scene-electrical.jpg</image:loc>
-      <image:caption>Circuit breakers and terminal blocks inside a control panel</image:caption>
+      <image:caption>Circuit breakers and terminal blocks installed in an open control cabinet on a factory floor</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/control-cabinet-components-supplier.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/cabinet.jpg</image:loc>
-      <image:caption>Open control cabinet with relays, breakers and terminals</image:caption>
+      <image:caption>Open control cabinet with breakers and colored wiring, installed beside process equipment in a bright factory</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/hero-cabinet.jpg</image:loc>
-      <image:caption>Open industrial control cabinet with breakers, relays and terminals</image:caption>
+      <image:caption>Open control cabinet installed beside a packaging machine in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/industrial-automation-parts-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -197,26 +197,26 @@
   </url>
   <url>
     <loc>https://gzyucore.com/industrial-electrical-components-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/electrical.jpg</image:loc>
-      <image:caption>Miniature and molded-case circuit breakers</image:caption>
+      <image:caption>Circuit breakers mounted on a DIN rail inside a control cabinet</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/scenes/scene-electrical.jpg</image:loc>
-      <image:caption>Circuit breakers and terminal blocks inside a control panel</image:caption>
+      <image:caption>Circuit breakers and terminal blocks installed in an open control cabinet on a factory floor</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/hydraulic-parts-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/hydraulics.jpg</image:loc>
-      <image:caption>Hydraulic pump and valve</image:caption>
+      <image:caption>Hydraulic valve manifold installed on factory machinery</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://gzyucore.com/images/scenes/scene-hydraulics.jpg</image:loc>
@@ -225,17 +225,17 @@
   </url>
   <url>
     <loc>https://gzyucore.com/mro-spare-parts-supplier-china.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://gzyucore.com/images/products/mro.jpg</image:loc>
-      <image:caption>Mechanical seal, bearing and fuse holder for maintenance lists</image:caption>
+      <image:caption>Bearing housing mounted on production equipment in a bright factory</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://gzyucore.com/printed-parts-pcb-supplier-china.html</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
